@@ -1,0 +1,103 @@
+.vkardzprofessional-main-wrapp {
+    width: 100%;
+    /* height: 40vh; */
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.vkardzprofessional-base-wrapp {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow-x: hidden; */
+}
+
+.vkardzprofessional-header {
+    color: hsl(233, 13%, 49%);
+    margin: 3.3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.vkardzprofessional-imgbox {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.vkardzprofessional-img {
+    width: 100%;
+    height: 100%;
+}
+
+.vkardzprofessional-inner-main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .603)
+}
+
+.vkardzprofessional-cards {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.vkardzprofessional-card {
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.vkardzprofessional-card-inner-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* justify-content: center; */
+    align-content: baseline;
+    /* justify-content: space-evenly; */
+}
+
+.vkardzprofessional-card-iconbox {
+    width: 50px;
+    height: 50px;
+}
+
+.vkardzprofessional-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.vkardzprofessional-card-txt {
+    color: hsl(233, 13%, 49%);
+    /* color: rgba(105, 111, 221, 1); */
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width:1080px) {
+    .vkardzprofessional-base-wrapp {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .vkardzprofessional-cards {
+        justify-content: center;
+    }
+}
